@@ -1,0 +1,5 @@
+#!/bin/bash
+
+scrot -cs /tmp/thumb.png
+imgurbash /tmp/thumb.png
+rm /tmp/thumb.png
