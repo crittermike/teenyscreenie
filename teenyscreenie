@@ -1,5 +1,5 @@
 #!/bin/bash
 
-scrot -cs /tmp/thumb.png
+scrot -cs -d 5 /tmp/thumb.png
 imgurbash /tmp/thumb.png
 rm /tmp/thumb.png
