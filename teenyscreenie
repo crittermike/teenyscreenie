@@ -5,4 +5,4 @@ function uploadImage {
 scrot -s "shot.png" 
 uploadImage "shot.png" | xclip -selection c
 rm "shot.png"
-twmnc "Done"
+notify-send "Done"
